@@ -11,6 +11,7 @@
 		02B543482ADE356E008D2E32 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B543472ADE356E008D2E32 /* ContentView.swift */; };
 		02B5434A2ADE3570008D2E32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02B543492ADE3570008D2E32 /* Assets.xcassets */; };
 		02B5434D2ADE3570008D2E32 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02B5434C2ADE3570008D2E32 /* Preview Assets.xcassets */; };
+		02B543542ADE35BF008D2E32 /* ScrollImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B543532ADE35BF008D2E32 /* ScrollImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		02B543472ADE356E008D2E32 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		02B543492ADE3570008D2E32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02B5434C2ADE3570008D2E32 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		02B543532ADE35BF008D2E32 /* ScrollImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		02B543442ADE356E008D2E32 /* MagicScrollView */ = {
 			isa = PBXGroup;
 			children = (
+				02B543532ADE35BF008D2E32 /* ScrollImageView.swift */,
 				02B543452ADE356E008D2E32 /* MagicScrollViewApp.swift */,
 				02B543472ADE356E008D2E32 /* ContentView.swift */,
 				02B543492ADE3570008D2E32 /* Assets.xcassets */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				02B543482ADE356E008D2E32 /* ContentView.swift in Sources */,
+				02B543542ADE35BF008D2E32 /* ScrollImageView.swift in Sources */,
 				02B543462ADE356E008D2E32 /* MagicScrollViewApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
